@@ -1,7 +1,5 @@
 # Loan_Calculator_App
 
-# Loan Calculator App
-
 A simple Loan Calculator app to calculate monthly loan payments based on loan amount, interest rate, and loan tenure.
 
 ## Features
@@ -18,5 +16,7 @@ A simple Loan Calculator app to calculate monthly loan payments based on loan am
 - **CSS**: Styling of the interface.
 - **JavaScript**: Logic for loan calculation.
 - **Bootstrap**: For responsive design and additional styling.
+
+- You can visit the live website here: [Loan_calculator_App](https://loancalappp.netlify.app/)
 
 
