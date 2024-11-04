@@ -15,7 +15,37 @@
       #results {
         display: none;
       }
-    </style>
+      .card {
+        background-color: #f8f9fa;
+      }
+      .btn-custom {
+        background-color: #007bff;
+        color: white;
+      }
+ 
+      body {
+        background: linear-gradient(to right, #1f1c2c, #928dab);
+        color: #fff;
+        min-height: 100vh;
+      }
+
+      .card {
+        background-color: #333;
+        border-radius: 10px;
+        color: #fff;
+      }
+
+      .btn {
+        background-color: #131313;
+        color: #fff;
+      }
+
+      .btn:hover {
+        background-color: #f5f2f0;
+      }
+</style>
+
+  
   </head>
   <body class="bg-dark">
     <div class="container">
@@ -64,8 +94,8 @@
               <div class="form-group">
                 <input
                   type="submit"
-                  class="btn btn-dark btn-block"
-                  value="calculate"
+                  class="btn btn-custom btn-block"
+                  value="Calculate"
                 />
               </div>
             </form>
@@ -88,6 +118,19 @@
                   <input
                     type="number"
                     id="monthly_payment"
+                    class="form-control"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">Yearly Payment</div>
+                  </div>
+                  <input
+                    type="number"
+                    id="yearly_payment"
                     class="form-control"
                     disabled
                   />
